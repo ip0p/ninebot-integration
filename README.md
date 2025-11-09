@@ -4,6 +4,11 @@
 
 It connects and poll data from a Ninebot Scooter using BLE.
 
+## Installation über HACS
+
+1. Füge das Repository https://github.com/ip0p/ninebot-integration als Benutzerdefinierte Integration in HACS hinzu (Typ: Integration).
+2. Nach der Installation Home Assistant neu starten und Integration konfigurieren.
+
 ## Manual installation
 
 1. Copy the directory `custom_components/ninebot_scooter` into you installation under
