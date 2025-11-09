@@ -1,24 +1,10 @@
 {
-    "domain": "ninebot_scooter",
-    "name": "Ninebot Scooter",
-    "bluetooth": [
-        {
-            "manufacturer_id": 16974
-        }
-    ],
-    "codeowners": [
-        "@ownbee"
-    ],
-    "config_flow": true,
-    "dependencies": [
-        "bluetooth_adapters"
-    ],
-    "iot_class": "local_push",
-    "loggers": [
-        "ninebot_ble"
-    ],
-    "requirements": [
-        "ninebot-ble==0.0.5"
-    ],
-    "version": "0.0.1"
+  "domain": "ninebot_scooter",
+  "name": "Ninebot Scooter BLE",
+  "version": "1.0.0",
+  "documentation": "https://github.com/ip0p/ninebot-integration",
+  "requirements": ["ninebot_ble==0.1.11"],
+  "dependencies": ["bluetooth"],
+  "codeowners": ["@ip0p"],
+  "iot_class": "local_polling"
 }
